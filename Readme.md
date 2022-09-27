@@ -5,7 +5,8 @@ Capturing audio levels from your microphone to interact with images of your char
 
 ## Features
 
-+ Customizable settings for creating your own personal rig.
++ Simple configuration.
++ Customizable settings.
 
 ## Requirements
 
@@ -15,17 +16,17 @@ Capturing audio levels from your microphone to interact with images of your char
 + numpy module
 
 ## Setup
++ Install Python3 (https://www.python.org/) and all required modules through pip.
 
-After installing all required modules with a tool like pip.
-Create the required folder paths from which to load your characters idle and speaking images.
+### Setting up your Character
+Setting up your character is a simple as loading images to the **/src/** folder.
 
-**Ex**: Loading idle and speaking images of your character:
-> './src/character/idle.png'
->
-> './src/character/speaking.png'
+**Ex**: Loading your character's idle images of your character:
+> './src/your_character/idle.png'
 
-Make sure the path is the same as the path described in code.
+*Make sure to add this path as the selected charater in main.py*
 
-## Extra Configuration
-Aylmao
+---
 
+By default, VtuberPy includes a simple character on **/src/template/**
+for simpler setup, replace **/src/template/idle.png** with your own's character **idle.png** image.

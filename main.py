@@ -44,7 +44,7 @@ def main():
     pygame.display.flip()
 
     #CHAR
-    selected = dir1 = './src/offcar/idle1.png'
+    selected = dir1 = './src/template/idle.png'
     char = pygame.image.load(dir1)
     char = pygame.transform.scale(char, (char.get_width()*scale, char.get_height()*scale))
     screen.blit(char,(x,y))
