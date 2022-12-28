@@ -10,9 +10,9 @@ Capturing audio levels from your microphone to interact with images of your char
 
 ## Requirements
 
++ PortAudio
 + Python3
 + pygame module
-+ sounddevice module
 + numpy module
 
 ## Setup
